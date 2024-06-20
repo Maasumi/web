@@ -46,4 +46,26 @@
 }
 .btn{
     background-color: transparent;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+.main{
+    width: 100%;
+    float: left;
+}
+.part1{
+    width: 50%;
+    float: left;
+}
+.part2{
+    width: 50%;
+    float: left;
+}
+.part2 img{
+    width: 100%;
 }
