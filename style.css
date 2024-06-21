@@ -24,6 +24,7 @@
     display: inline-block;
     background-color: white;
     padding: 20px;
+    position: relative;
 }
 .menu ul li a{
     text-decoration: none;
@@ -31,6 +32,23 @@
 }
 .menu li:hover{
     background-color: yellow;
+}
+.menu ul li ul{
+    display: none;
+}
+.menu ul li:hover ul{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left:0;
+}
+.menu ul li ul li ul{
+    display: none !important;
+}
+.menu ul li ul li:hover ul{
+    display: block !important;
+    left: 100%;
+    top:0;
 }
 .background{
     width: 100%;
